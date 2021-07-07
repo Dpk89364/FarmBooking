@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Farm Booking</string>
+
+    <array name="farmtype">
+        <item>Select Type</item>
+        <item>Decorative Farm</item>
+        <item>Simple Farm</item>
+        <item>Decorative Hall</item>
+        <item>Simple Hall</item>
+    </array>
+</resources>

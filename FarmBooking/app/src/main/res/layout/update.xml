@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="Upload">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+            <EditText
+                android:id="@+id/edit_text_address"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/field"
+                android:hint="Enter Address"
+                android:paddingLeft="20dp" />
+
+            <EditText
+                android:id="@+id/edit_text_price"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/field"
+                android:hint="Enter Price"
+                android:paddingLeft="20dp" />
+
+
+
+            <EditText
+                android:id="@+id/edit_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/field"
+                android:hint="Enter Size"
+                android:paddingLeft="20dp" />
+
+            <EditText
+                android:id="@+id/edit_text_landmark"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/field"
+                android:hint="Enter Landmark"
+                android:paddingLeft="20dp" />
+
+            <EditText
+                android:id="@+id/edit_text_pincode"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/field"
+                android:hint="Enter Pincode"
+                android:paddingLeft="20dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Property Type:"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <Spinner
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/field"
+                android:entries="@array/farmtype"
+                android:textAlignment="center" />
+
+
+            <EditText
+                android:id="@+id/edit_text_file_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/field"
+                android:hint="Enter Your Name"
+                android:paddingLeft="20dp" />
+
+            <EditText
+                android:id="@+id/edit_text_phone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/field"
+                android:hint="Enter Phone Number"
+                android:inputType="phone"
+                android:paddingLeft="20dp" />
+
+            <EditText
+                android:id="@+id/edit_text_email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:background="@drawable/field"
+                android:hint="Enter Email Address"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="20dp" />
+    </LinearLayout>
+
+
+        <Button
+            android:id="@+id/button_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/button"
+            android:text="Update"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/button"
+            android:text="Delete"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/button"
+            android:text="Cancel"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

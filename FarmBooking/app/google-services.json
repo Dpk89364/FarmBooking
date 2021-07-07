@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "676289016124",
+    "firebase_url": "https://farm-booking-a3c32.firebaseio.com",
+    "project_id": "farm-booking-a3c32",
+    "storage_bucket": "farm-booking-a3c32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676289016124:android:455d61b3e00690baaa6e39",
+        "android_client_info": {
+          "package_name": "com.example.farmbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676289016124-5nivnfrdd4d0om4m86lpgq1hi71c3lne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP_0pmuhz-3vThYUZfqAgIxxXF7EnADqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676289016124-5nivnfrdd4d0om4m86lpgq1hi71c3lne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
